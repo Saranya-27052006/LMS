@@ -90,13 +90,7 @@ CLOUDINARY_API_SECRET=your_api_secret
 PORT=3000
 ```
 
-### Frontend (.env):
-Create a `.env` file in the `Frontend/Training Management System-Python` directory:
-```env
-VITE_API_URL=http://localhost:3000
-VITE_KEYCLOAK_URL=your_keycloak_url
-VITE_KEYCLOAK_REALM=your_realm
-VITE_KEYCLOAK_CLIENT_ID=your_client_id
+
 ```
 
 ---
@@ -117,7 +111,7 @@ VITE_KEYCLOAK_CLIENT_ID=your_client_id
    ```
 
 The application should now be running:
-- Frontend: `http://localhost:5173` (or as specified by Vite)
+- Frontend: `http://localhost:5173` 
 - Backend: `http://localhost:3000`
 
 ---
@@ -125,7 +119,7 @@ The application should now be running:
 ## 📁 Project Structure
 
 ```
-harsh/
+
 ├── TMS-BE/                 # Backend application
 │   ├── src/
 │   │   ├── controllers/    # Request handlers
@@ -182,17 +176,6 @@ harsh/
 
 ---
 
-## 🧪 Testing
-
-```bash
-# Backend tests
-cd TMS-BE
-npm test
-
-# Frontend tests
-cd "Frontend/Training Management System-Python"
-npm test
-```
 
 ---
 
@@ -202,15 +185,6 @@ API documentation is available in the `openapi.yaml` file in the backend directo
 
 ---
 
-## 👥 Team Members
-- [Add team member names here]
-
----
-
-## 📄 License
-[Specify your license - MIT, Apache, etc.]
-
----
 
 ## 🤝 Contributing
 
@@ -223,12 +197,4 @@ API documentation is available in the `openapi.yaml` file in the backend directo
 ---
 
 
----
 
-## 🙏 Acknowledgments
-
-- MongoDB
-- Keycloak
-- Cloudinary
-- React Team
-- All contributors
