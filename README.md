@@ -21,7 +21,6 @@ A comprehensive training management system that enables administrators to manage
 - Access course materials (videos, documents)
 - Take tests and view results
 - Track course completion status
-- Personal dashboard with statistics
 - Real-time progress tracking
 
 ---
@@ -31,13 +30,13 @@ A comprehensive training management system that enables administrators to manage
 ### Frontend:
 - React with TypeScript
 - Vite
-- Modern UI components
+
 
 ### Backend:
 - Node.js with TypeScript
 - Express.js
 - MongoDB (Database)
-- Keycloak (Authentication & Authorization)
+- Keycloak (Authentication)
 - Cloudinary (Image/File Storage)
 
 ---
@@ -45,10 +44,10 @@ A comprehensive training management system that enables administrators to manage
 ## 📦 Installation
 
 ### Prerequisites:
-- Node.js (v16 or higher)
+- Node.js 
 - MongoDB
 - Keycloak server
-- npm or yarn
+- npm
 
 ### Backend Setup:
 ```bash
@@ -90,16 +89,6 @@ CLOUDINARY_API_SECRET=your_api_secret
 PORT=3000
 ```
 
-### Frontend (.env):
-Create a `.env` file in the `Frontend/Training Management System-Python` directory:
-```env
-VITE_API_URL=http://localhost:3000
-VITE_KEYCLOAK_URL=your_keycloak_url
-VITE_KEYCLOAK_REALM=your_realm
-VITE_KEYCLOAK_CLIENT_ID=your_client_id
-```
-
----
 
 ## 🚀 Running the Application
 
@@ -117,7 +106,7 @@ VITE_KEYCLOAK_CLIENT_ID=your_client_id
    ```
 
 The application should now be running:
-- Frontend: `http://localhost:5173` (or as specified by Vite)
+- Frontend: `http://localhost:5173` 
 - Backend: `http://localhost:3000`
 
 ---
@@ -125,7 +114,7 @@ The application should now be running:
 ## 📁 Project Structure
 
 ```
-harsh/
+
 ├── TMS-BE/                 # Backend application
 │   ├── src/
 │   │   ├── controllers/    # Request handlers
@@ -182,19 +171,7 @@ harsh/
 
 ---
 
-## 🧪 Testing
 
-```bash
-# Backend tests
-cd TMS-BE
-npm test
-
-# Frontend tests
-cd "Frontend/Training Management System-Python"
-npm test
-```
-
----
 
 ## 📝 API Documentation
 
@@ -202,15 +179,8 @@ API documentation is available in the `openapi.yaml` file in the backend directo
 
 ---
 
-## 👥 Team Members
-- [Add team member names here]
 
----
 
-## 📄 License
-[Specify your license - MIT, Apache, etc.]
-
----
 
 ## 🤝 Contributing
 
@@ -223,12 +193,4 @@ API documentation is available in the `openapi.yaml` file in the backend directo
 ---
 
 
----
 
-## 🙏 Acknowledgments
-
-- MongoDB
-- Keycloak
-- Cloudinary
-- React Team
-- All contributors
