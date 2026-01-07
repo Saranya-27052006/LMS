@@ -83,26 +83,22 @@ PORT=3000
 NODE_ENV=development
 
 # Database Configuration
-MONGODB_URI= mongodb+srv://freshkite20:freshkite20@cluster0.oz3xgkz.mongodb.net/lms_project?retryWrites=true&w=majority&appName=Cluster0
+MONGODB_URI= mongodb+srv://username:password@cluster0.oz3xgkz.mongodb.net/lms_project?retryWrites=true&w=majority&appName=Cluster0
 MONGODB_DB_NAME=mongo
 
 # Keycloak Configuration
 KEYCLOAK_BASE_URL=http://localhost:8080
 KEYCLOAK_REALM=lms-realm
 KEYCLOAK_CLIENT_ID=tms-backend
-KEYCLOAK_CLIENT_SECRET=0DMcRrCltJwgbCDZb8AizpCSzerMKT8x
+KEYCLOAK_CLIENT_SECRET=<SECRET>
 
 # File Storage
 STORAGE_PROVIDER=local
 UPLOAD_DIR=uploads
 
-# Email Configuration
-EMAIL_PROVIDER=mock
-SENDGRID_API_KEY=
 
-CLOUDINARY_CLOUD_NAME=diagkwkpb
-CLOUDINARY_API_KEY=517141223835312
-CLOUDINARY_API_SECRET=gepKSB9plitw0NHw7lWf90FaYvI
+
+
 
 
 
