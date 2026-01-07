@@ -22,7 +22,7 @@ if (existsSync(distDir)) {
     rmSync(distDir, { recursive: true });
     console.log('✅ Removed dist folder');
 } else {
-    console.log('ℹ️  No dist folder to remove');
+    console.log('ℹ️  No dist folder to remove')
 }
 
 console.log('\n📦 Building project...');

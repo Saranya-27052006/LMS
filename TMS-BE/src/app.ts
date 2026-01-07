@@ -15,5 +15,5 @@ app.use('/api/v1', apiRouter);
 
 app.use(errorHandler);
 
-export default app;
+export default app
 
