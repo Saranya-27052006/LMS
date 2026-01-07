@@ -19,7 +19,7 @@ console.log('🧹 Cleaning build artifacts...');
 
 // Remove dist folder if it exists
 if (existsSync(distDir)) {
-    rmSync(distDir, { recursive: true, force: true });
+    rmSync(distDir, { recursive: true });
     console.log('✅ Removed dist folder');
 } else {
     console.log('ℹ️  No dist folder to remove');
@@ -28,7 +28,7 @@ if (existsSync(distDir)) {
 console.log('\n📦 Building project...');
 
 try {
-    execSync('npm run build', { stdio: 'inherit', cwd: rootDir });
+    execSync('npm run build', {cwd: rootDir });
     console.log('\n✅ Build completed successfully!');
 } catch (error) {
     console.error('\n❌ Build failed!');
